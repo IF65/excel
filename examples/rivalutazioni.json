@@ -1,0 +1,27 @@
+{
+    "nomeFile": "CDDB76BD899A43AB92AC8526BFF88868",
+    "path": "./",
+    "rivalutazioni": [
+        {
+            "articoli": [
+                {
+                    "codiceArticolo": "0666960",
+                    "codiceArticoloFornitore": "1408627014",
+                    "descrizioneArticolo": "EPILATORE G804E+SMALTO INGLOT+PEDICURE P1044E",
+                    "giacenza": 1,
+                    "modelloArticolo": "P1044E",
+                    "quantita": 1,
+                    "valore": 9.47
+                }
+            ],
+            "data": "2018-04-05T22:00:00.000Z",
+            "descrizione": "CIRCOLARE GENERICA 414",
+            "fornitore": "FCOPRE",
+            "linea": "BABYLISS",
+            "numero": "00078/18",
+            "quantita": 1,
+            "valore": 9.47
+        }
+    ]
+}
+

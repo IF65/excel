@@ -3,8 +3,8 @@
 
 	require '../vendor/autoload.php';
 	// leggo i dati da un file
-    $request = file_get_contents('../examples/rivalutazioni.json');
-    //$request = file_get_contents('php://input');
+    //$request = file_get_contents('../examples/rivalutazioni.json');
+    $request = file_get_contents('php://input');
     $data = json_decode($request, true);
 
     use PhpOffice\PhpSpreadsheet\Cell\Coordinate;

@@ -1,27 +1,281 @@
 {
-    "nomeFile": "CDDB76BD899A43AB92AC8526BFF88868",
+    "nomeFile": "4E1736CB776A4C22A778DBFB966E3C93",
     "path": "./",
     "rivalutazioni": [
         {
             "articoli": [
                 {
-                    "codiceArticolo": "0666960",
-                    "codiceArticoloFornitore": "1408627014",
-                    "descrizioneArticolo": "EPILATORE G804E+SMALTO INGLOT+PEDICURE P1044E",
-                    "giacenza": 1,
-                    "modelloArticolo": "P1044E",
-                    "quantita": 1,
-                    "valore": 9.47
+                    "codiceArticolo": "0626451",
+                    "codiceArticoloFornitore": "9006117106",
+                    "descrizioneArticolo": "SMARTPHONE 5,1\" LTE P10 BLACK",
+                    "giacenza": 21,
+                    "modelloArticolo": "P10  BLACK",
+                    "quantita": 45,
+                    "valoreUnitario": 95.91
+                },
+                {
+                    "codiceArticolo": "0626460",
+                    "codiceArticoloFornitore": "9006117105",
+                    "descrizioneArticolo": "SMARTPHONE 5,1\" LTE P10 SILVER",
+                    "giacenza": 17,
+                    "modelloArticolo": "P10  SILVER",
+                    "quantita": 46,
+                    "valoreUnitario": 95.91
+                },
+                {
+                    "codiceArticolo": "0626479",
+                    "codiceArticoloFornitore": "9006117107",
+                    "descrizioneArticolo": "SMARTPHONE 5,1\" LTE P10 GOLD",
+                    "giacenza": 22,
+                    "modelloArticolo": "P10  GOLD",
+                    "quantita": 47,
+                    "valoreUnitario": 95.91
+                },
+                {
+                    "codiceArticolo": "0699257",
+                    "codiceArticoloFornitore": "9006117118",
+                    "descrizioneArticolo": "SMARTPHONE 5\" LTE Y6 PRO 2017 BLACK",
+                    "giacenza": 151,
+                    "modelloArticolo": "Y6PRO17-BK",
+                    "quantita": 162,
+                    "valoreUnitario": 14.75
+                },
+                {
+                    "codiceArticolo": "0699266",
+                    "codiceArticoloFornitore": "9006117119",
+                    "descrizioneArticolo": "SMARTPHONE 5\" LTE Y6 PRO 2017 GOLD",
+                    "giacenza": 117,
+                    "modelloArticolo": "Y6PRO17-GD",
+                    "quantita": 130,
+                    "valoreUnitario": 14.75
+                },
+                {
+                    "codiceArticolo": "0699275",
+                    "codiceArticoloFornitore": "9006117120",
+                    "descrizioneArticolo": "SMARTPHONE 5\" LTE Y6 PRO 2017 SILVER",
+                    "giacenza": 151,
+                    "modelloArticolo": "Y6PRO17-SL",
+                    "quantita": 161,
+                    "valoreUnitario": 14.75
                 }
             ],
-            "data": "2018-04-05T22:00:00.000Z",
-            "descrizione": "CIRCOLARE GENERICA 414",
+            "data": "2018-01-01T23:00:00.000Z",
+            "descrizione": "CIRCOLARE GENERICA 1800004",
             "fornitore": "FCOPRE",
-            "linea": "BABYLISS",
-            "numero": "00078/18",
-            "quantita": 1,
-            "valore": 9.47
+            "linea": "HUAWEI TEL",
+            "numero": "00001/18",
+            "quantita": 479,
+            "valore": 11934.85
+        },
+        {
+            "articoli": [
+                {
+                    "codiceArticolo": "0581025",
+                    "codiceArticoloFornitore": "6207662057",
+                    "descrizioneArticolo": "TABLET 9,7\" WIFI+LTE 32GB TAB S2 (6) GOLD SM-T819NZDEITV",
+                    "giacenza": 96,
+                    "modelloArticolo": "SM-T819NZDEITV",
+                    "quantita": 112,
+                    "valoreUnitario": 38
+                },
+                {
+                    "codiceArticolo": "0581034",
+                    "codiceArticoloFornitore": "6207662055",
+                    "descrizioneArticolo": "TABLET 9,7\" WIFI+LTE 32GB TAB S2 (6) BLACK SM-T819NZKEITV",
+                    "giacenza": 35,
+                    "modelloArticolo": "SM-T819NZKEITV",
+                    "quantita": 53,
+                    "valoreUnitario": 38
+                },
+                {
+                    "codiceArticolo": "0581043",
+                    "codiceArticoloFornitore": "6207662056",
+                    "descrizioneArticolo": "TABLET 8\" WIFI+LTE 32GB TAB S2 (6) BLACK SM-T719NZKEITV",
+                    "giacenza": 7,
+                    "modelloArticolo": "SM-T719NZKEITV",
+                    "quantita": 43,
+                    "valoreUnitario": 16
+                },
+                {
+                    "codiceArticolo": "0581052",
+                    "codiceArticoloFornitore": "6207662054",
+                    "descrizioneArticolo": "TABLET 8\" WIFI+LTE 32GB TAB S2 (6) GOLD SM-T719NZDEITV",
+                    "giacenza": 31,
+                    "modelloArticolo": "SM-T719NZDEITV",
+                    "quantita": 54,
+                    "valoreUnitario": 16
+                },
+                {
+                    "codiceArticolo": "0626629",
+                    "codiceArticoloFornitore": "6207662059",
+                    "descrizioneArticolo": "TABLET 9,7\" WIFI+LTE 4GB 32GB TAB S3 BLACK SM-T825NZKAITV",
+                    "giacenza": 29,
+                    "modelloArticolo": "SM-T825NZKAITV",
+                    "quantita": 53,
+                    "valoreUnitario": 52
+                },
+                {
+                    "codiceArticolo": "0626638",
+                    "codiceArticoloFornitore": "6207662060",
+                    "descrizioneArticolo": "TABLET 9,7\" WIFI+LTE 4GB 32GB TAB S3 SILVER SM-T825NZSAITV",
+                    "giacenza": 12,
+                    "modelloArticolo": "SM-T825NZSAITV",
+                    "quantita": 44,
+                    "valoreUnitario": 52
+                }
+            ],
+            "data": "2018-01-02T23:00:00.000Z",
+            "descrizione": "CIRCOLARE GENERICA 1800003",
+            "fornitore": "FCOPRE",
+            "linea": "SAMSUNG TAB",
+            "numero": "00002/18",
+            "quantita": 210,
+            "valore": 7718
+        },
+        {
+            "articoli": [
+                {
+                    "codiceArticolo": "0605624",
+                    "codiceArticoloFornitore": "6801133094",
+                    "descrizioneArticolo": "CONSOLE XBOX ONE S 1TB NAKED 234-00010",
+                    "giacenza": 7,
+                    "modelloArticolo": "234-00010",
+                    "quantita": 43,
+                    "valoreUnitario": 37.71
+                },
+                {
+                    "codiceArticolo": "0618022",
+                    "codiceArticoloFornitore": "6801133092",
+                    "descrizioneArticolo": "CONSOLE XBOX ONE S 1TB + FIFA 17 234-00030",
+                    "giacenza": 23,
+                    "modelloArticolo": "234-0030",
+                    "quantita": 47,
+                    "valoreUnitario": 38.35
+                },
+                {
+                    "codiceArticolo": "0723480",
+                    "codiceArticoloFornitore": "6801133103",
+                    "descrizioneArticolo": "CONSOLE XBOX ONE S 1TB + ASSASSINS 234-00233",
+                    "giacenza": 17,
+                    "modelloArticolo": "234-00233",
+                    "quantita": 43,
+                    "valoreUnitario": 38.35
+                }
+            ],
+            "data": "2018-01-04T23:00:00.000Z",
+            "descrizione": "CIRCOLARE GENERICA 1800008",
+            "fornitore": "FCOPRE",
+            "linea": "MICROSOFT CONSOLLE",
+            "numero": "00003/18",
+            "quantita": 47,
+            "valore": 1797.97
+        },
+        {
+            "articoli": [
+                {
+                    "codiceArticolo": "0656962",
+                    "codiceArticoloFornitore": "",
+                    "descrizioneArticolo": "CD ZEROVSKIJ... SOLO PER AMORE/2CD - RENATO ZERO",
+                    "giacenza": 60,
+                    "modelloArticolo": "TATTICA",
+                    "quantita": 86,
+                    "valoreUnitario": 6.61
+                }
+            ],
+            "data": "2018-01-08T23:00:00.000Z",
+            "descrizione": "CIRCOLARE GENERICA 1800023",
+            "fornitore": "FCOPRE",
+            "linea": "MT AUDIO",
+            "numero": "00004/18",
+            "quantita": 60,
+            "valore": 396.6
+        },
+        {
+            "articoli": [
+                {
+                    "codiceArticolo": "0710323",
+                    "codiceArticoloFornitore": "5202423019",
+                    "descrizioneArticolo": "ACTIONCAM HERO 6 BLACK CHDHX-601",
+                    "giacenza": 20,
+                    "modelloArticolo": "HERO 6 BLACK",
+                    "quantita": 46,
+                    "valoreUnitario": 75.7
+                }
+            ],
+            "data": "2018-01-08T23:00:00.000Z",
+            "descrizione": "CIRCOLARE GENERICA 1800019",
+            "fornitore": "FCOPRE",
+            "linea": "GOPRO CAM",
+            "numero": "00005/18",
+            "quantita": 20,
+            "valore": 1514
+        },
+        {
+            "articoli": [
+                {
+                    "codiceArticolo": "0487672",
+                    "codiceArticoloFornitore": "5420423008",
+                    "descrizioneArticolo": "ACTION CAMERA HD HERO 4 BLACK EDITION DK0040001",
+                    "giacenza": 4,
+                    "modelloArticolo": "HD  HERO4 BLACK",
+                    "quantita": 44,
+                    "valoreUnitario": 150
+                },
+                {
+                    "codiceArticolo": "0520528",
+                    "codiceArticoloFornitore": "5202423014",
+                    "descrizioneArticolo": "ACTION CAMERA HD HERO SESSION DK0040024 / DK0040020",
+                    "giacenza": 19,
+                    "modelloArticolo": "HERO  SESSION",
+                    "quantita": 45,
+                    "valoreUnitario": 15
+                }
+            ],
+            "data": "2018-01-10T23:00:00.000Z",
+            "descrizione": "CIRCOLARE GENERICA 1800030",
+            "fornitore": "FCOPRE",
+            "linea": "GOPRO CAM",
+            "numero": "00007/18",
+            "quantita": 23,
+            "valore": 885
+        },
+        {
+            "articoli": [
+                {
+                    "codiceArticolo": "0623980",
+                    "codiceArticoloFornitore": "",
+                    "descrizioneArticolo": "SMARTPHONE 5,2\" LTE HUAWEI P8 LITE 2017 BLACK 772997",
+                    "giacenza": 223,
+                    "modelloArticolo": "P8 LITE  2017 BLACK",
+                    "quantita": 236,
+                    "valoreUnitario": 37.43
+                },
+                {
+                    "codiceArticolo": "0623999",
+                    "codiceArticoloFornitore": "",
+                    "descrizioneArticolo": "SMARTPHONE 5,2\" LTE HUAWEI P8 LITE 2017 WHITE 772998",
+                    "giacenza": 79,
+                    "modelloArticolo": "P8 LITE  2017 WHITE",
+                    "quantita": 97,
+                    "valoreUnitario": 37.43
+                },
+                {
+                    "codiceArticolo": "0719057",
+                    "codiceArticoloFornitore": "",
+                    "descrizioneArticolo": "SMARTPHONE 5,2\" NOKIA 5 BLUE 773618",
+                    "giacenza": 78,
+                    "modelloArticolo": "NOKIA 5 BLUE",
+                    "quantita": 96,
+                    "valoreUnitario": 14.97
+                }
+            ],
+            "data": "2018-01-14T23:00:00.000Z",
+            "descrizione": "RIVALUTAZIONE TIM",
+            "fornitore": "FTIM",
+            "linea": "TIM",
+            "numero": "00008/18",
+            "quantita": 380,
+            "valore": 12471.52
         }
     ]
 }
-

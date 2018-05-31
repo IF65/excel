@@ -5,8 +5,7 @@
 	// leggo i dati da un file
     $request = file_get_contents('../examples/rivalutazioni.json');
     //$request = file_get_contents('php://input');
-    
-	$data = json_decode($request, true);
+    $data = json_decode($request, true);
 
     use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
     use PhpOffice\PhpSpreadsheet\Cell\DataType;
@@ -18,6 +17,7 @@
     use PhpOffice\PhpSpreadsheet\Style\Fill;
     use PhpOffice\PhpSpreadsheet\Style\Border;
 	use PhpOffice\PhpSpreadsheet\Shared\Date;
+	use PhpOffice\PhpSpreadsheet\Worksheet\PageSetup;
 
 	// verifico l'esistenza della cartella temp e se serve la creo
 	// con mask 777.
@@ -137,7 +137,7 @@
     
         // formattazione
         // --------------------------------------------------------------------------------
-		$lastCellAddress = $sheet->getCellByColumnAndRow($highestColumn, $highestRow)->getCoordinate();
+		$lastCellAddress = "$highestColumn$highestRow";
 		$sheet->getStyle('A1:'.$lastCellAddress)->getAlignment()->setVertical('center');
 		
         $sheet->getDefaultRowDimension()->setRowHeight(20);
@@ -174,7 +174,7 @@
         $styleArray = array(
         	'borders' => array(
             	'outline' => array(
-                	'borderStyle' => \PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN,
+                	'borderStyle' => Border::BORDER_THIN,
                 	'color' => array('argb' => 'FF0000FF'),
             	),
         	),
@@ -187,6 +187,15 @@
         $sheet ->getStyle("E$rigaTitoli:E$highestRow")->applyFromArray($styleArray);
         $sheet ->getStyle("F$rigaTitoli:F$highestRow")->applyFromArray($styleArray);
         $sheet ->getStyle("G$rigaTitoli:G$highestRow")->applyFromArray($styleArray);
+		
+		$sheet->getPageSetup()->setOrientation(PageSetup::ORIENTATION_LANDSCAPE);
+		$sheet->getPageSetup()->setPaperSize(PageSetup::PAPERSIZE_A4);
+		$sheet->getPageSetup()->setFitToWidth(1);
+		$sheet->getPageSetup()->setFitToHeight(0);
+		$sheet->getPageSetup()->setHorizontalCentered(true);
+		$sheet->getPageSetup()->setVerticalCentered(false);
+		$sheet->getHeaderFooter()->setOddHeader('&C&HDocumento confidenziale!');
+		$sheet->getHeaderFooter()->setOddFooter('&L&B' . $workBook->getProperties()->getTitle() . '&RPage &P of &N');
         
         $workBook->setActiveSheetIndex(0);
 	}
